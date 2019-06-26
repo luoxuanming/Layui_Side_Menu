@@ -1,0 +1,98 @@
+[
+    {
+        "menuId": 1,
+        "spread": true,
+        "name": "系统设置",
+        "url": "login.html",
+        "childMenus": [
+            {
+                "name": "权限模块",
+                "url": "login.html",
+                "childMenus": null
+            }
+        ]
+    },
+    {
+        "menuId": 2,
+        "spread": true,
+        "name": "业务系统",
+        "url": "login.html",
+        "childMenus": [
+            {
+                "menuId": 21,
+                "spread": true,
+                "name": "销售系统",
+                "url": "login.html",
+                "childMenus": [
+                    {
+                        "menuId": 22,
+                        "spread": true,
+                        "name": "订单系统",
+                        "url": "login.html",
+                        "childMenus": [
+                            {
+                                "menuId": 23,
+                                "spread": true,
+                                "name": "未完成订单",
+                                "url": "www.undo.com",
+                                "childMenus": [
+                                    {
+                                        "menuId": 24,
+                                        "spread": true,
+                                        "name": "服装部订单",
+                                        "url": "www.clothes.com",
+                                        "childMenus": [
+                                            {
+                                                "menuId": 25,
+                                                "name": "成人部分1",
+                                                "url": "www.clothes.com",
+                                                "childMenus": null
+                                            },
+                                            {
+                                                "menuId": 26,
+                                                "name": "儿童部分2",
+                                                "url": "www.clothes.com",
+                                                "childMenus": null
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "menuId": 27,
+                                        "name": "玩具部订单",
+                                        "url": "www.clothes.com",
+                                        "childMenus": [
+                                            {
+                                                "menuId": 28,
+                                                "name": "成人部分",
+                                                "url": "www.clothes.com",
+                                                "childMenus": null
+                                            },
+                                            {
+                                                "menuId": 29,
+                                                "name": "儿童部分",
+                                                "url": "www.clothes.com",
+                                                "childMenus": null
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "结算系统",
+                        "url": "login.html",
+                        "childMenus": null
+                    }
+                ]
+            },
+            {
+                "menuId": 3,
+                "spread": true,
+                "name": "公关系统",
+                "url": "login.html",
+                "childMenus": null
+            }
+        ]
+    }
+]
